@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mheader {
+  display: flex;
+  align-items: center;
+}
+
+.imgheader {
+  margin-left: 50px;
+}
+.contheader {
+  margin-left: 30px;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+}
+
+#pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+}
+
+.card {
+  width: calc(50% - 20px);
+  height: 200px;
+  border: 2px solid black;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 15px 15px;
+}
+
+.repoh {
+  color: rgb(15, 205, 238);
+  margin-bottom: 10px;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.topic-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space {
+  margin-right: 10px;
+}
